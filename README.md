@@ -20,11 +20,10 @@
 
 
 - The programs must be developed in C language of C11 standard using gcc compiler.
-- The program code of the cat and grep must be located on the develop branch in the src/cat/ and src/grep/ folders, respectively  
 - Do not use outdated and legacy language constructions and library functions. Pay attention to the legacy and obsolete marks in the official documentation on the language and the libraries used. Use the POSIX.1-2017 standard.
 - When writing code it is necessary to follow the Google style
 - The programs must be executable files with command line arguments
-- The programs must be built with Makefile with appropriate targets: my_cat, my_grep
+- The programs must be built with Makefile with appropriate targets: my_grep
 - If third-party libraries are used, there must be build scripts in makefile to connect/load them
 - Integration tests must cover all flag variants and input values, based on a comparison with the behavior of real Bash utilities 
 - The programs must be developed according to the principles of structured programming
