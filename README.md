@@ -38,8 +38,8 @@
 You need to develop the grep utility:
 - Support of the following flags: `-e`, `-i`, `-v`, `-c`, `-l`, `-n`, `-h`, `-s`, `-f`, `-o`
 - Only pcre or regex libraries can be used for regular expressions
-- The source, header and make files must be placed in the src/grep/ directory
-- The resulting executable file must be placed in the directory src/grep/ and named my_grep
+- The source, header and make files must be placed in my_grep/ directory
+- The resulting executable file must be placed in the directory my_grep/ and named my_grep
 
 
 Bonus assignment for extra points. You need to develop the grep utility:
